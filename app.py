@@ -5,7 +5,7 @@ from werkzeug.security import generate_password_hash,check_password_hash
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///contact message.db'
-app.config['SECRET_KEY'] = 'Iyke'
+app.config['SECRET_KEY'] = ' '
 db.init_app(app)
 
 login_manager = LoginManager()
